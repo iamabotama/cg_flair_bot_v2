@@ -1,0 +1,21 @@
+﻿Standard library module invoked user code during import; breakpoints disabled for invoked code.
+Standard library module invoked user code during import; breakpoints disabled for invoked code.
+Standard library module invoked user code during import; breakpoints disabled for invoked code.
+Standard library module invoked user code during import; breakpoints disabled for invoked code.
+Standard library module invoked user code during import; breakpoints disabled for invoked code.
+Standard library module invoked user code during import; breakpoints disabled for invoked code.
+Standard library module invoked user code during import; breakpoints disabled for invoked code.
+Standard library module invoked user code during import; breakpoints disabled for invoked code.
+Standard library module invoked user code during import; breakpoints disabled for invoked code.
+Standard library module invoked user code during import; breakpoints disabled for invoked code.
+Standard library module invoked user code during import; breakpoints disabled for invoked code.
+Standard library module invoked user code during import; breakpoints disabled for invoked code.
+Standard library module invoked user code during import; breakpoints disabled for invoked code.
+Standard library module invoked user code during import; breakpoints disabled for invoked code.
+Standard library module invoked user code during import; breakpoints disabled for invoked code.
+Standard library module invoked user code during import; breakpoints disabled for invoked code.
+Standard library module invoked user code during import; breakpoints disabled for invoked code.
+Standard library module invoked user code during import; breakpoints disabled for invoked code.
+Standard library module invoked user code during import; breakpoints disabled for invoked code.
+Standard library module invoked user code during import; breakpoints disabled for invoked code.
+The program '[414204] python.exe' has exited with code -1073741510 (0xc000013a).
