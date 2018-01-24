@@ -32,7 +32,7 @@ class Bot():
         self.author_points = yaml.load(sub.wiki['flairbot'].content_md)
         
         """ SET TO Total number of posts for a full refresh.  Be sure to wipe out all flair and wiki page content first """
-        self.MAX_POSTS_CHECKED = 10
+        self.MAX_POSTS_CHECKED = 150
         
         #track total posts (max = 100 using streams)
         self.TOTAL_CREATION_GIF_POSTS = 0
@@ -191,15 +191,17 @@ class Bot():
                 if karma_size >= 100 or self.author_points[submission.subreddit.display_name][submission.author.name][sub_id][0] >= 100:
                     score[1] = max(score[1],max(karma_size,self.author_points[submission.subreddit.display_name][submission.author.name][sub_id][0]))
                     
-                # count up existing gold and add it to new gold
+                # count up existing gold
                 score[2] += self.author_points[submission.subreddit.display_name][submission.author.name][sub_id][1]
             #add new gold to existing gold
-                     
+            score[2] += (submission.gilded - is_gilded)
+            
             flair_class = self.score_class(score)
             flair_text = self.score_text(score)
 
             #update score flair text and class
             submission.subreddit.flair.set(redditor=submission.author, text=flair_text, css_class=flair_class)
+
 
             #save new authorpoints to wiki
 
