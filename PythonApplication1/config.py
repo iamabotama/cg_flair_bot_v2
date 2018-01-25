@@ -21,4 +21,5 @@ app_user_agent = 'u/botsbot flair bot script v.01 for r/iamaabotama'
 app_site_name = 'iamabotama'
 app_scopes = 'This is a script used to set personal flair for users on r/iamabotama when they accomplish certain goals.'
 
+
 """

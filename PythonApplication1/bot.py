@@ -34,7 +34,7 @@ class Bot():
         """ SET TO Total number of posts for a full refresh.  Be sure to wipe out all flair and wiki page content first """
         self.MAX_POSTS_CHECKED = 150
         
-        #track total posts (max = 100 using streams)
+        #track total posts (max = 100 using streams.)
         self.TOTAL_CREATION_GIF_POSTS = 0
         
     def run(self):
